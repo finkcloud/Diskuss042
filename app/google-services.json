@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "278236281670",
+    "firebase_url": "https://diskus042.firebaseio.com",
+    "project_id": "diskus042",
+    "storage_bucket": "diskus042.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278236281670:android:59fd8ecd5cd899f7",
+        "android_client_info": {
+          "package_name": "com.gdgenugu.diskus042"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278236281670-h6sevomu70lt3s3o0lmbc10k90ic1s65.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gdgenugu.diskus042",
+            "certificate_hash": "2463a113e15a882944db724e687d2d7b2132856b"
+          }
+        },
+        {
+          "client_id": "278236281670-3dgf8sja0rkc15767lvru53v0hgchs89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvs1NxpmmIqr1OkeTNEdzR03MjIY5nVZ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278236281670-3dgf8sja0rkc15767lvru53v0hgchs89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
