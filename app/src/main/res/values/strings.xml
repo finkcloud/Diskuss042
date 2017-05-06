@@ -4,8 +4,19 @@
 
     <string name="lead_txt">Welcome to \n GDG-Enugu Chat</string>
     <string name="logo_text">Hey!</string>
-    <string name="sign_in">Sign In</string>
+    <string name="sign_inn">Sign In</string>
     <string name="sign_out">Sign Out</string>
     <string name="invite_menu_label">Invite</string>
+    <string name="crash_menu_label">Crash</string>
     <string name="message">Message</string>
+
+    <!--APp specific  string-->
+    <string name="welcome_msg">Welcome!</string>
+    <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
+    <string name="invitation_message">Please join us at GDG Enugu chat</string>
+    <string name="invitation_cta">Call to action</string>
+    <string name="invitation_title">GDG Enugu Chat Invite</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fresh_config">Fresh Config</string>
+    <string name="cause_crash">Cause Crash</string>
 </resources>
