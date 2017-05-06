@@ -5,6 +5,7 @@ package com.gdgenugu.diskus042.utils;
  */
 
 public class GdgPreference {
+    // for messaging
     public static final String INSTANCE_ID_TOKEN_RETRIEVED = "iid_token_retrieved";
-    public static final String FRIENDLY_MSG_LENGTH = "gdg_msg_length";
+    public static final String GDG_MSG_LENGTH = "gdg_msg_length";
 }

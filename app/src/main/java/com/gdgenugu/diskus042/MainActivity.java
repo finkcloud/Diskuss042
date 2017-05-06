@@ -65,13 +65,13 @@ public class MainActivity extends AppCompatActivity implements
         GoogleApiClient.OnConnectionFailedListener {
 
     public static final String MESSAGES_CHILD = "messages";
-    public static final int DEFAULT_MSG_LENGTH_LIMIT = 20;
+    public static final int DEFAULT_MSG_LENGTH_LIMIT = 100;
     public static final String ANONYMOUS = "anonymous";
     private static final String TAG = "MainActivity";
     private static final int REQUEST_INVITE = 1;
     private static final int REQUEST_IMAGE = 2;
     private static final String MESSAGE_SENT_EVENT = "message_sent";
-    private static final String MESSAGE_URL = "http://https://diskus042.firebaseio.com/message/";
+    private static final String MESSAGE_URL = "http://https://diskus042.firebaseio.com/messages/";
     private static final String LOADING_IMAGE_URL = "https://www.google.com/images/spin-32.gif";
     FloatingActionButton mSendButton;
     private String mUsername, mPhotoUrl;
@@ -248,7 +248,7 @@ public class MainActivity extends AppCompatActivity implements
 
         mMessageEditText = (EditText) findViewById(R.id.input);
         mMessageEditText.setFilters(new InputFilter[]{new InputFilter.LengthFilter(mSharedPreferences
-                .getInt(GdgPreference.FRIENDLY_MSG_LENGTH, DEFAULT_MSG_LENGTH_LIMIT))});
+                .getInt(GdgPreference.GDG_MSG_LENGTH, DEFAULT_MSG_LENGTH_LIMIT))});
         mMessageEditText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
